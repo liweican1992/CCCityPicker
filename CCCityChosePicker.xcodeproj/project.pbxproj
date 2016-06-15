@@ -1,0 +1,529 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		423BB1991D1140890060FA59 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 423BB1981D1140890060FA59 /* main.m */; };
+		423BB19C1D1140890060FA59 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 423BB19B1D1140890060FA59 /* AppDelegate.m */; };
+		423BB19F1D1140890060FA59 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 423BB19E1D1140890060FA59 /* ViewController.m */; };
+		423BB1A21D1140890060FA59 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 423BB1A01D1140890060FA59 /* Main.storyboard */; };
+		423BB1A41D1140890060FA59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 423BB1A31D1140890060FA59 /* Assets.xcassets */; };
+		423BB1A71D1140890060FA59 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 423BB1A51D1140890060FA59 /* LaunchScreen.storyboard */; };
+		423BB1B21D11408A0060FA59 /* CCCityChosePickerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 423BB1B11D11408A0060FA59 /* CCCityChosePickerTests.m */; };
+		423BB1BD1D11408A0060FA59 /* CCCityChosePickerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 423BB1BC1D11408A0060FA59 /* CCCityChosePickerUITests.m */; };
+		423BB1CC1D1142600060FA59 /* CCCityPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 423BB1CB1D1142600060FA59 /* CCCityPickerView.m */; };
+		423BB1D01D1144D30060FA59 /* area.plist in Resources */ = {isa = PBXBuildFile; fileRef = 423BB1CF1D1144D30060FA59 /* area.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		423BB1AE1D11408A0060FA59 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 423BB18C1D1140890060FA59 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 423BB1931D1140890060FA59;
+			remoteInfo = CCCityChosePicker;
+		};
+		423BB1B91D11408A0060FA59 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 423BB18C1D1140890060FA59 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 423BB1931D1140890060FA59;
+			remoteInfo = CCCityChosePicker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		423BB1941D1140890060FA59 /* CCCityChosePicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CCCityChosePicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		423BB1981D1140890060FA59 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		423BB19A1D1140890060FA59 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		423BB19B1D1140890060FA59 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		423BB19D1D1140890060FA59 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		423BB19E1D1140890060FA59 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		423BB1A11D1140890060FA59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		423BB1A31D1140890060FA59 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		423BB1A61D1140890060FA59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		423BB1A81D1140890060FA59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		423BB1AD1D11408A0060FA59 /* CCCityChosePickerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CCCityChosePickerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		423BB1B11D11408A0060FA59 /* CCCityChosePickerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCCityChosePickerTests.m; sourceTree = "<group>"; };
+		423BB1B31D11408A0060FA59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		423BB1B81D11408A0060FA59 /* CCCityChosePickerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CCCityChosePickerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		423BB1BC1D11408A0060FA59 /* CCCityChosePickerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCCityChosePickerUITests.m; sourceTree = "<group>"; };
+		423BB1BE1D11408A0060FA59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		423BB1CA1D1142600060FA59 /* CCCityPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCCityPickerView.h; sourceTree = "<group>"; };
+		423BB1CB1D1142600060FA59 /* CCCityPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCCityPickerView.m; sourceTree = "<group>"; };
+		423BB1CF1D1144D30060FA59 /* area.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = area.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		423BB1911D1140890060FA59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		423BB1AA1D11408A0060FA59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		423BB1B51D11408A0060FA59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		423BB18B1D1140890060FA59 = {
+			isa = PBXGroup;
+			children = (
+				423BB1961D1140890060FA59 /* CCCityChosePicker */,
+				423BB1B01D11408A0060FA59 /* CCCityChosePickerTests */,
+				423BB1BB1D11408A0060FA59 /* CCCityChosePickerUITests */,
+				423BB1951D1140890060FA59 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		423BB1951D1140890060FA59 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				423BB1941D1140890060FA59 /* CCCityChosePicker.app */,
+				423BB1AD1D11408A0060FA59 /* CCCityChosePickerTests.xctest */,
+				423BB1B81D11408A0060FA59 /* CCCityChosePickerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		423BB1961D1140890060FA59 /* CCCityChosePicker */ = {
+			isa = PBXGroup;
+			children = (
+				423BB19A1D1140890060FA59 /* AppDelegate.h */,
+				423BB1CF1D1144D30060FA59 /* area.plist */,
+				423BB19B1D1140890060FA59 /* AppDelegate.m */,
+				423BB19D1D1140890060FA59 /* ViewController.h */,
+				423BB19E1D1140890060FA59 /* ViewController.m */,
+				423BB1CA1D1142600060FA59 /* CCCityPickerView.h */,
+				423BB1CB1D1142600060FA59 /* CCCityPickerView.m */,
+				423BB1A01D1140890060FA59 /* Main.storyboard */,
+				423BB1A31D1140890060FA59 /* Assets.xcassets */,
+				423BB1A51D1140890060FA59 /* LaunchScreen.storyboard */,
+				423BB1A81D1140890060FA59 /* Info.plist */,
+				423BB1971D1140890060FA59 /* Supporting Files */,
+			);
+			path = CCCityChosePicker;
+			sourceTree = "<group>";
+		};
+		423BB1971D1140890060FA59 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				423BB1981D1140890060FA59 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		423BB1B01D11408A0060FA59 /* CCCityChosePickerTests */ = {
+			isa = PBXGroup;
+			children = (
+				423BB1B11D11408A0060FA59 /* CCCityChosePickerTests.m */,
+				423BB1B31D11408A0060FA59 /* Info.plist */,
+			);
+			path = CCCityChosePickerTests;
+			sourceTree = "<group>";
+		};
+		423BB1BB1D11408A0060FA59 /* CCCityChosePickerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				423BB1BC1D11408A0060FA59 /* CCCityChosePickerUITests.m */,
+				423BB1BE1D11408A0060FA59 /* Info.plist */,
+			);
+			path = CCCityChosePickerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		423BB1931D1140890060FA59 /* CCCityChosePicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 423BB1C11D11408A0060FA59 /* Build configuration list for PBXNativeTarget "CCCityChosePicker" */;
+			buildPhases = (
+				423BB1901D1140890060FA59 /* Sources */,
+				423BB1911D1140890060FA59 /* Frameworks */,
+				423BB1921D1140890060FA59 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CCCityChosePicker;
+			productName = CCCityChosePicker;
+			productReference = 423BB1941D1140890060FA59 /* CCCityChosePicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		423BB1AC1D11408A0060FA59 /* CCCityChosePickerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 423BB1C41D11408A0060FA59 /* Build configuration list for PBXNativeTarget "CCCityChosePickerTests" */;
+			buildPhases = (
+				423BB1A91D11408A0060FA59 /* Sources */,
+				423BB1AA1D11408A0060FA59 /* Frameworks */,
+				423BB1AB1D11408A0060FA59 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				423BB1AF1D11408A0060FA59 /* PBXTargetDependency */,
+			);
+			name = CCCityChosePickerTests;
+			productName = CCCityChosePickerTests;
+			productReference = 423BB1AD1D11408A0060FA59 /* CCCityChosePickerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		423BB1B71D11408A0060FA59 /* CCCityChosePickerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 423BB1C71D11408A0060FA59 /* Build configuration list for PBXNativeTarget "CCCityChosePickerUITests" */;
+			buildPhases = (
+				423BB1B41D11408A0060FA59 /* Sources */,
+				423BB1B51D11408A0060FA59 /* Frameworks */,
+				423BB1B61D11408A0060FA59 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				423BB1BA1D11408A0060FA59 /* PBXTargetDependency */,
+			);
+			name = CCCityChosePickerUITests;
+			productName = CCCityChosePickerUITests;
+			productReference = 423BB1B81D11408A0060FA59 /* CCCityChosePickerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		423BB18C1D1140890060FA59 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = ssrj;
+				TargetAttributes = {
+					423BB1931D1140890060FA59 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					423BB1AC1D11408A0060FA59 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 423BB1931D1140890060FA59;
+					};
+					423BB1B71D11408A0060FA59 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 423BB1931D1140890060FA59;
+					};
+				};
+			};
+			buildConfigurationList = 423BB18F1D1140890060FA59 /* Build configuration list for PBXProject "CCCityChosePicker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 423BB18B1D1140890060FA59;
+			productRefGroup = 423BB1951D1140890060FA59 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				423BB1931D1140890060FA59 /* CCCityChosePicker */,
+				423BB1AC1D11408A0060FA59 /* CCCityChosePickerTests */,
+				423BB1B71D11408A0060FA59 /* CCCityChosePickerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		423BB1921D1140890060FA59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				423BB1A71D1140890060FA59 /* LaunchScreen.storyboard in Resources */,
+				423BB1D01D1144D30060FA59 /* area.plist in Resources */,
+				423BB1A41D1140890060FA59 /* Assets.xcassets in Resources */,
+				423BB1A21D1140890060FA59 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		423BB1AB1D11408A0060FA59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		423BB1B61D11408A0060FA59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		423BB1901D1140890060FA59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				423BB19F1D1140890060FA59 /* ViewController.m in Sources */,
+				423BB1CC1D1142600060FA59 /* CCCityPickerView.m in Sources */,
+				423BB19C1D1140890060FA59 /* AppDelegate.m in Sources */,
+				423BB1991D1140890060FA59 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		423BB1A91D11408A0060FA59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				423BB1B21D11408A0060FA59 /* CCCityChosePickerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		423BB1B41D11408A0060FA59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				423BB1BD1D11408A0060FA59 /* CCCityChosePickerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		423BB1AF1D11408A0060FA59 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 423BB1931D1140890060FA59 /* CCCityChosePicker */;
+			targetProxy = 423BB1AE1D11408A0060FA59 /* PBXContainerItemProxy */;
+		};
+		423BB1BA1D11408A0060FA59 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 423BB1931D1140890060FA59 /* CCCityChosePicker */;
+			targetProxy = 423BB1B91D11408A0060FA59 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		423BB1A01D1140890060FA59 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				423BB1A11D1140890060FA59 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		423BB1A51D1140890060FA59 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				423BB1A61D1140890060FA59 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		423BB1BF1D11408A0060FA59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		423BB1C01D11408A0060FA59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		423BB1C21D11408A0060FA59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CCCityChosePicker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ssrj.CCCityChosePicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		423BB1C31D11408A0060FA59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CCCityChosePicker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ssrj.CCCityChosePicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		423BB1C51D11408A0060FA59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CCCityChosePickerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ssrj.CCCityChosePickerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CCCityChosePicker.app/CCCityChosePicker";
+			};
+			name = Debug;
+		};
+		423BB1C61D11408A0060FA59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CCCityChosePickerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ssrj.CCCityChosePickerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CCCityChosePicker.app/CCCityChosePicker";
+			};
+			name = Release;
+		};
+		423BB1C81D11408A0060FA59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CCCityChosePickerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ssrj.CCCityChosePickerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CCCityChosePicker;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		423BB1C91D11408A0060FA59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CCCityChosePickerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ssrj.CCCityChosePickerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CCCityChosePicker;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		423BB18F1D1140890060FA59 /* Build configuration list for PBXProject "CCCityChosePicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				423BB1BF1D11408A0060FA59 /* Debug */,
+				423BB1C01D11408A0060FA59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		423BB1C11D11408A0060FA59 /* Build configuration list for PBXNativeTarget "CCCityChosePicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				423BB1C21D11408A0060FA59 /* Debug */,
+				423BB1C31D11408A0060FA59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		423BB1C41D11408A0060FA59 /* Build configuration list for PBXNativeTarget "CCCityChosePickerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				423BB1C51D11408A0060FA59 /* Debug */,
+				423BB1C61D11408A0060FA59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		423BB1C71D11408A0060FA59 /* Build configuration list for PBXNativeTarget "CCCityChosePickerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				423BB1C81D11408A0060FA59 /* Debug */,
+				423BB1C91D11408A0060FA59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 423BB18C1D1140890060FA59 /* Project object */;
+}
