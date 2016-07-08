@@ -106,8 +106,8 @@
 		423BB1961D1140890060FA59 /* CCCityChosePicker */ = {
 			isa = PBXGroup;
 			children = (
-				423BB19A1D1140890060FA59 /* AppDelegate.h */,
 				423BB1CF1D1144D30060FA59 /* area.plist */,
+				423BB19A1D1140890060FA59 /* AppDelegate.h */,
 				423BB19B1D1140890060FA59 /* AppDelegate.m */,
 				423BB19D1D1140890060FA59 /* ViewController.h */,
 				423BB19E1D1140890060FA59 /* ViewController.m */,
@@ -506,6 +506,7 @@
 				423BB1C31D11408A0060FA59 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		423BB1C41D11408A0060FA59 /* Build configuration list for PBXNativeTarget "CCCityChosePickerTests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +515,7 @@
 				423BB1C61D11408A0060FA59 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		423BB1C71D11408A0060FA59 /* Build configuration list for PBXNativeTarget "CCCityChosePickerUITests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +524,7 @@
 				423BB1C91D11408A0060FA59 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

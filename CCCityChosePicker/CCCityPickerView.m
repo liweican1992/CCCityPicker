@@ -78,13 +78,13 @@
     [[AppDelegate shareInstance].window addSubview:self];
     self.backView.frame = CGRectMake(0, SCREEN_HEIGHT, self.backView.frame.size.width, self.backView.frame.size.height);
     [UIView animateWithDuration:.2 animations:^{
-//        self.backView.origin = CGPointMake(0, SCREEN_HEIGHT - BackViewHeight);
+
           self.backView.frame = CGRectMake(0, SCREEN_HEIGHT - BackViewHeight, self.backView.frame.size.width, self.backView.frame.size.height);
     }];
 }
 - (void)hidePickerView{
     [UIView animateWithDuration:.2 animations:^{
-//        self.backView.origin = CGPointMake(0, SCREEN_HEIGHT);
+
     self.backView.frame = CGRectMake(0, SCREEN_HEIGHT, self.backView.frame.size.width, self.backView.frame.size.height);
 
 
@@ -166,6 +166,32 @@
     return model.areaName;
 
 }
+- (UIView *)pickerView:(UIPickerView *)pickerView viewForRow:(NSInteger)row forComponent:(NSInteger)component reusingView:(UIView *)view{
+    UILabel* pickerLabel = (UILabel*)view;
+    if (!pickerLabel){
+        pickerLabel = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, (SCREEN_WIDTH-15)/3, 40)];
+        pickerLabel.font = [UIFont systemFontOfSize:14];
+        pickerLabel.numberOfLines = 2;
+//        pickerLabel.backgroundColor = [UIColor redColor];
+        //        pickerLabel.adjustsFontSizeToFitWidth = YES;
+        [pickerLabel setTextAlignment:NSTextAlignmentCenter];
+        [pickerLabel setBackgroundColor:[UIColor clearColor]];
+    }
+    pickerLabel.text=[self pickerView:pickerView titleForRow:row forComponent:component];
+    return pickerLabel;
+}
+- (CGFloat)pickerView:(UIPickerView *)pickerView widthForComponent:(NSInteger)component
+
+{
+    
+    
+    return SCREEN_WIDTH/3;
+    
+}
+
+- (CGFloat)pickerView:(UIPickerView *)pickerView rowHeightForComponent:(NSInteger)component{
+    return 40;
+}
 @end
 
 @implementation CCProvinceModel
@@ -199,12 +225,12 @@
         _dic = dictionary;
         self.cityName = dictionary[@"city"];
         NSArray *arr = dictionary[@"areas"];
-        NSMutableArray *muatableArr = [NSMutableArray arrayWithCapacity:arr.count];
+        NSMutableArray *mutableArr = [NSMutableArray arrayWithCapacity:arr.count];
         for (NSString *name in arr) {
             CCAreaModel *model = [[CCAreaModel alloc]initWithName:name];
-            [muatableArr addObject:model];
+            [mutableArr addObject:model];
         }
-        self.areasArray = [muatableArr copy];
+        self.areasArray = [mutableArr copy];
     }
     return self;
 }
