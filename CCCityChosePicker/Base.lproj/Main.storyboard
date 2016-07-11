@@ -26,17 +26,30 @@
                                     <action selector="buttonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="iBT-qd-HdE"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GPa-WA-rvZ">
+                                <rect key="frame" x="10" y="194" width="300" height="34"/>
+                                <state key="normal" title="省/市/区">
+                                    <color key="titleColor" red="0.60784313729999995" green="0.60784313729999995" blue="0.60784313729999995" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="jsonButtonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mPf-S3-oEf"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="GPa-WA-rvZ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="10" id="4jo-YJ-Fiq"/>
+                            <constraint firstItem="GPa-WA-rvZ" firstAttribute="top" secondItem="4zK-XX-xaj" secondAttribute="bottom" constant="60" id="Ct7-VQ-fc2"/>
                             <constraint firstAttribute="trailing" secondItem="4zK-XX-xaj" secondAttribute="trailing" constant="10" id="ek7-FB-iD1"/>
                             <constraint firstItem="4zK-XX-xaj" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="hBn-rF-Mf3"/>
+                            <constraint firstAttribute="trailing" secondItem="GPa-WA-rvZ" secondAttribute="trailing" constant="10" id="odj-9t-7HM"/>
                             <constraint firstItem="4zK-XX-xaj" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="10" id="pcF-gd-J0o"/>
                             <constraint firstItem="4zK-XX-xaj" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="100" id="pyT-dn-t3K"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="addressButton" destination="4zK-XX-xaj" id="n4E-yr-ve9"/>
+                        <outlet property="addressButton2" destination="GPa-WA-rvZ" id="Kpp-6N-cLC"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
